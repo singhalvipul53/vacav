@@ -25,6 +25,7 @@ export const styles = StyleSheet.create({
     fontFamily: Fonts.robotoslabbold,
     textAlign: 'center',
     lineHeight: 30,
+    color: Colors.textcolor,
   },
   signuptext: {
     fontSize: 20,
@@ -39,10 +40,12 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: Fonts.robotoslablight,
     textAlign: 'center',
+    color: Colors.textcolor,
   },
   subfreetext: {
     fontSize: 18,
     fontFamily: Fonts.robotoslabextrabold,
     textAlign: 'center',
+    color: Colors.textcolor,
   },
 });

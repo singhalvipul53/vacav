@@ -15,7 +15,7 @@ const Success = () => {
         source={require('../../assets/backgroundvideo.mp4')}
         style={styles.video}
         resizeMode="stretch"
-        repeat={false}
+        repeat
       />
       <View style={[styles.buttoncontainer, {bottom: 20 + insets['bottom']}]}>
         <View style={styles.congratulatecontainer}>

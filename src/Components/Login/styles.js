@@ -22,10 +22,12 @@ export const styles = StyleSheet.create({
   label: {
     fontSize: 15,
     fontFamily: Fonts.robotoslabmedium,
+    color: Colors.textcolor,
   },
   sublabel: {
     fontSize: 12,
     fontFamily: Fonts.robotoslabextralight,
+    color: Colors.textcolor,
   },
   textinput: {
     width: '100%',
@@ -52,6 +54,7 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     fontFamily: Fonts.robotoslablight,
     textAlign: 'center',
+    color: Colors.otptext,
   },
   resendcontainer: {
     borderBottomColor: Colors.bgcolor,
@@ -80,6 +83,7 @@ export const styles = StyleSheet.create({
   },
   phonenumber: {
     fontFamily: Fonts.poppinsregular,
+    color: Colors.subotptext,
   },
   otpcontainer: {
     flexDirection: 'row',
